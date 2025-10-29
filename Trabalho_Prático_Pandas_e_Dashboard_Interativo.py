@@ -44,7 +44,7 @@ def carregar_e_limpar_dados(caminho_ficheiro):
 
     return df
 
-df = carregar_e_limpar_dados("Popular_Spotify_Songs.csv")
+df = carregar_e_limpar_dados("Trabalho_Pr-tico_Pandas_e_Dashboard_Interativo_Joao_Ismael/Popular_Spotify_Songs.csv")
 
 if df is None:
     st.stop()
